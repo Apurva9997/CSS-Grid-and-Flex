@@ -1,0 +1,65 @@
+<html>
+<head>
+	<style>
+.wrapper{
+	display:grid;
+	grid-template-columns:repeat(3,1fr);
+	grid-gap:10px;
+}
+.wrapper > div {
+	background-color:#eee;
+	padding:1em;
+}
+.wrapper > div:nth-child(even) {
+	background-color:rebeccapurple;
+}
+.flexb{
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+}
+.flexb > a{
+	display: block;
+	text-decoration: none;
+	background-color: #ccc;
+	border:1px dotted #eee;
+	color:white;
+	padding: 5px;;
+}
+.wrapper2{
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+}
+/*
+Selector list	A, B	Any element matching A and/or B (see Groups of selectors on one rule, below - Group of Selectors is not considered to be a combinator).
+Descendant combinator	A B	Any element matching B that is a descendant of an element matching A (that is, a child, or a child of a child, etc.). the combinator is one or more spaces or dual greater than signs.
+Child combinator	A > B	Any element matching B that is a direct child of an element matching A.
+Adjacent sibling combinator	A + B	Any element matching B that is the next sibling of an element matching A (that is, the next child of the same parent).
+General sibling combinator	A ~ B	Any element matching B that is one of the next siblings of an element matching A (that is, one of the next children of the same parent).
+*/
+</style>
+</head>
+<body>
+<div class = "wrapper">
+<div>Column 1</div>
+<div>Column 2</div>
+<div class = "flexb"><a href="#">Column 2</a><a href="#">Column 2</a><a href="#">Column 2</a><a href="#">Column 2</a></div>
+<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+</div>
+<div class='wrapper2'>
+<div>
+	This is some paragraph.
+</div>
+<div>
+	This is some paragraph.
+</div>
+<div>
+	This is some paragraph.
+</div>
+<div>
+	This is some paragraph.
+</div>
+</div>
+</body>
+</html>

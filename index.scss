@@ -1,0 +1,18 @@
+@import '_buttons.scss';
+@import '_divisions.scss';
+@import '_grid.scss';
+@mixin border-radius($radius){
+    -webkit-border-radius:$radius;
+    -moz-border-radius:$radius;
+    -ms-border-radius:$radius;
+    border-radius:$radius;
+}
+.gridV{
+    display:inline-grid;
+    grid-template-columns:repeat(12,1fr);
+}
+.grid-container{
+    border: 1px dotted burlywood;
+    background-color: #eee;
+    color:rebeccapurple;
+}

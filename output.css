@@ -1,0 +1,37 @@
+.success, .error, .primary, .warning {
+  color: white;
+  background-color: blue;
+  height: 50px;
+  width: 100px; }
+
+.success {
+  background-color: green; }
+
+.error {
+  background-color: red; }
+
+.warning {
+  background-color: yellow; }
+
+.jumbotron {
+  color: white;
+  background-color: blue;
+  font: icon small-caps bold 14pt Arial, Helvetica, sans-serif;
+  padding: 5px;
+  margin: 5px; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 5px; }
+
+.gridV {
+  display: inline-grid;
+  grid-template-columns: repeat(12, 1fr); }
+
+.grid-container {
+  border: 1px dotted burlywood;
+  background-color: #eee;
+  color: rebeccapurple; }
+
+/*# sourceMappingURL=output.css.map */

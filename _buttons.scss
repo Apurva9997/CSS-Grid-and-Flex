@@ -1,0 +1,21 @@
+%primary{
+    color:white;
+    background-color:blue;
+    height:50px;
+    width:100px;
+}
+.success{
+    @extend %primary;
+    background-color:green;
+}
+.error{
+    @extend %primary;
+    background-color: red;
+}
+.primary{
+    @extend %primary;
+}
+.warning{
+    @extend %primary;
+    background-color: yellow;
+}

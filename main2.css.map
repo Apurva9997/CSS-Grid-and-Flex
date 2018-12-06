@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEI,QAAI;EACA,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,aAAa,EAAE,GAAG;EAClB,MAAM,EAAC,eAAe;AAE1B,KAAC;EACG,OAAO,EAAE,YAAY;EACrB,KAAK,EAAE,KAAK;EACZ,WAAW,EAAE,SAAS",
+"sources": ["radiobutton.scss"],
+"names": [],
+"file": "main2.css"
+}

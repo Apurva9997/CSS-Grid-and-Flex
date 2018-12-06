@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <style>
+            .wrapper{
+                display: grid;
+                grid-template-rows: repeat(12,1fr);
+                grid-template-columns: repeat(12,1fr);
+            }
+            #cont1{
+                grid-column-start: 2;
+                grid-row-start: 2;
+            }
+            #cont2{
+                grid-column-start: 2;
+                grid-row-start: 4;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div id='cont1'>
+                Some Text
+            </div>
+            <div id='cont2'>
+                Some Text again
+            </div>
+        </div>
+    </body>
+</html>

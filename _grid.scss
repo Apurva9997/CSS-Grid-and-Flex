@@ -1,0 +1,10 @@
+@mixin initialize(){
+    display: grid;
+    grid-template-columns:repeat(12,1fr);
+    grid-gap:5px;
+    place-items: center;
+    justify-content: 
+}
+.grid-container{
+    @include initialize();
+}

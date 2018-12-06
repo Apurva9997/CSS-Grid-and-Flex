@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <style>
+            .wrapper{
+                display: flex;
+                flex-flow:row wrap;
+                justify-content:space-evenly;
+                /*align-items: flex-end;*/
+            }
+            .wrapper > div{
+                background-color:blueviolet;
+                padding: 5px;
+                margin:5px;
+                /*flex-grow:2;*/
+            }
+            #o1{
+                order: 3;
+                align-self: flex-end;
+                /*flex-basis:800px;*/
+            }
+            #o2{
+                order: 2;
+                /*flex-shrink:1;*/
+            }
+            #o3{
+                order: 1
+            }
+            /*
+            .wrapper ~ div{
+                background-color: aquamarine;
+            }*/
+        </style>
+    </head>
+    <body>
+    <div class="wrapper">
+        <div id='o1'>
+            Flex A
+        </div>
+        <div id='o2'>
+            Flex B
+        </div>
+        <div id='o3'>
+            Flex C
+        </div>
+    </div>
+    </body>
+</html>

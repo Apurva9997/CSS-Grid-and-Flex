@@ -1,0 +1,11 @@
+div span {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid black; }
+div p {
+  display: inline-block;
+  color: coral;
+  margin-left: max(40px); }
+
+/*# sourceMappingURL=main2.css.map */
